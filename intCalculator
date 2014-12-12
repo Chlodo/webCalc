@@ -1,0 +1,38 @@
+<html> <head> <title> Calculator </title>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="JStest.js"></script>
+</head> <div id="main"> <body>
+	<h2> Integer Calculator</h2>
+<div id="calc"> <form> <table>
+<tr>
+	<td colspan="4"> <input type="text" id="display2" readonly /></input></td>
+</tr> <tr> 
+	<td colspan="4"> <input type="text" id="display" readonly /></input></td>
+</tr><tr>
+	<td> <button type="button" class="n" value="1" onclick="n()">1</button></td>
+	<td> <button type="button" class="n" value="2" onclick="n()">2</button> </td>
+	<td> <button type="button" class="n" value="3" onclick="n()">3</button> </td>
+	<td> <button type="button" class="f" value="+">+</button></td>
+</tr><tr>
+	<td> <button type="button" class="n" value="4" onclick="n()">4</button> </td>
+	<td> <button type="button" class="n" value="5" onclick="n()">5</button> </td>
+	<td> <button type="button" class="n" value="6" onclick="n()">6</button> </td>
+	<td> <button type="button" class="f" value="-">-</button></td>
+</tr><tr>
+	<td> <button type="button" class="n" value="7" onclick="n()">7</button> </td>
+	<td> <button type="button" class="n" value="8" onclick="n()">8</button> </td>
+	<td> <button type="button" class="n" value="9" onclick="n()">9</button> </td>
+	<td> <button type="button" class="f" value="*">&times;</button></td>
+</tr><tr>
+	<td> <button type="button" class="c" value="C">C</button></td>
+	<td> <button type="button" class="n" value="0" onclick="n()">0</button> </td>
+	<td> <button type="button" class="ce" value="CE">CE</button></td>
+	<td> <button type="button" class="f" value="/">&divide;</button></td>
+</tr> <tr>
+	<td colspan="2"> </td> 
+	<td colspan="2"> <button type="button" class="f" value="=">=</button> </td>
+</tr> </table> </div> </form> </div> </div>
+</body>
+
+</html>
